@@ -1,5 +1,5 @@
 # 👔 ProForge ⚒️
-*Crafted* for **==Professionals==** , *Forged* with **==Freedom==**
+*Crafted* for **💼Professionals** , *Forged* with **🇺🇸Freedom**
 ![[Leonardo_Anime_XL_setting_A_deep_dark_cavecontext_A_black_smit_0.jpg]]
 > ***“Simple things should be simple, complex things should be possible.”***  
 	— **Alan Kay**, computer scientist & pioneer of object-oriented programming
