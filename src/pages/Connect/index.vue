@@ -1,5 +1,5 @@
 <template>
-    <v-container>
+    <v-container class="pt-10">
         <v-row>
             <v-col cols="12">
                 <h1>Connect</h1>

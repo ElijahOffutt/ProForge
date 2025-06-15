@@ -5,7 +5,7 @@
         <h1>Resumes</h1>
       </v-col>
       <v-col cols="2">
-        <v-btn block size="x-large" append-icon="mdi-plus">create</v-btn>
+        <CreateModal />
       </v-col>
       <v-col cols="12">
         <v-divider></v-divider>
@@ -18,6 +18,8 @@
 </template>
 
 <script setup>
+
+
 let resumes = [
   {
     title: '',
