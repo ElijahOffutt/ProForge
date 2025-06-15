@@ -1,7 +1,27 @@
 <template>
-  <div />
+  <v-container class="pt-10">
+    <v-row justify="space-between">
+      <v-col>
+        <h1>Resumes</h1>
+      </v-col>
+      <v-col cols="2">
+        <v-btn block size="x-large" append-icon="mdi-plus">create</v-btn>
+      </v-col>
+      <v-col cols="12">
+        <v-divider></v-divider>
+      </v-col>
+      <v-col cols="12">
+        <p>Looks like you do not have any Resumes yet; get started by hitting that "create" button to the top right.</p>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
-<script lang="ts" setup>
-//
+<script setup>
+let resumes = [
+  {
+    title: '',
+
+  }
+]
 </script>
