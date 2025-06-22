@@ -15,6 +15,10 @@
                         {{ link.text }}
                     </v-list-item-title>
                 </v-list-item>
+                <v-list-item>
+                    <v-btn @click="appData.updateConfigured()" class="mt-3" size="x-large" append-icon="mdi-logout"
+                        block text="sign out" />
+                </v-list-item>
             </v-col>
         </v-row>
 
@@ -30,6 +34,8 @@
 </template>
 
 <script setup>
+
+import { useAppStore } from '@/stores/app'; let appData = useAppStore()
 
 let links = [
     {

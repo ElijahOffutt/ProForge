@@ -8,9 +8,11 @@
             <v-card title="✨New Resume">
                 <v-card-text>
 
-                    <v-form>
-                        <v-text-field label="Title" />
-                    </v-form>
+                    <v-window>
+                        <v-window-item>
+                            <p>it looks like you have not choose</p>
+                        </v-window-item>
+                    </v-window>
 
                 </v-card-text>
 

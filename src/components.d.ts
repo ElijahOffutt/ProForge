@@ -9,6 +9,8 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     AppFooter: typeof import('./components/AppFooter.vue')['default']
+    Carousel: typeof import('./components/Setup/Carousel/index.vue')['default']
+    CarouselTabs: typeof import('./components/Setup/Carousel/CarouselTabs.vue')['default']
     Create: typeof import('./components/Pages/Resumes/Create.vue')['default']
     CreateModal: typeof import('./components/Pages/Resumes/CreateModal.vue')['default']
     CreateModel: typeof import('./components/Pages/Resumes/CreateModel.vue')['default']
@@ -16,5 +18,8 @@ declare module 'vue' {
     Left: typeof import('./components/Navigations/Main/Left/index.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    Setup: typeof import('./components/Setup/index.vue')['default']
+    SetupCarousel: typeof import('./components/Setup/SetupCarousel.vue')['default']
+    Tabs: typeof import('./components/Setup/Carousel/Tabs.vue')['default']
   }
 }

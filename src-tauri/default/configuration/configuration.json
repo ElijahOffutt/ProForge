@@ -1,0 +1,6 @@
+{ 
+        "DatabaseLocation": "default/database",
+        "AppState": {
+            "isDatabaseConfigured": true
+        } 
+    }
